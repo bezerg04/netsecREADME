@@ -94,10 +94,12 @@ $ sudo gcc -o client client.c
     $ sudo ./client
     ```
     You should see:
-    <!-- Replace with actual screenshot -->
-4. **Check Server Terminal**  
+   
+    ![Alt Text](clientstart.png)
+5. **Check Server Terminal**  
     You should see new responses from the client:
-    <!-- Replace with actual screenshot -->
+   
+    ![Alt Text](clientcheck.png)
 ---
 ### Testing with ```dig```
 1. **Run the following command**  
@@ -105,25 +107,25 @@ $ sudo gcc -o client client.c
     $ dig @localhost aGkA.google.com
     ```
     You should see:
-    <!-- Replace with actual screenshot -->
+    ![Alt Text](dig1.png)
 2. **Run the next command**  
     ```bash
     $ dig @localhost aGVsbG8A.google.com
     ```
     You should see:
-    <!-- Replace with actual screenshot -->
+    ![Alt Text](dig2.png)
 ---
 ### Using Wireshark to Observe DNS Traffic
 1. **Open Wireshark**  
     Capture traffic on the ```Loopback:lo``` interface.
-    <!-- Replace with actual screenshot -->
+    ![Alt Text](loop.png)
 2. **Rerun the Client**  
     ```bash
     $ ./client
     ```
     In Wireshark, you should observe 4 DNS packets.
     You should see:
-    <!-- Replace with actual screenshot -->
+    ![Alt Text](wireshark.png)
 ---
 ### Clean-Up Steps
 To revert the changes, follow these steps:
