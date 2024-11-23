@@ -86,7 +86,7 @@ $ sudo gcc -o client client.c
     $ sudo ./server
     ```
     You should see:
-    <!-- Replace with actual screenshot -->
+    ![Alt Text](serverstart.png)
 2. **Start the Client**  
     In another terminal, run: 
     ```bash
