@@ -99,7 +99,7 @@ $ sudo gcc -o client client.c
 5. **Check Server Terminal**  
     You should see new responses from the client:
    
-    ![Alt Text](clientcheck.png)
+    ![clientcheck](clientcheck.png)
 ---
 ### Testing with ```dig```
 1. **Run the following command**  
