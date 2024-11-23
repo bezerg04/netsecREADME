@@ -86,15 +86,16 @@ $ sudo gcc -o client client.c
     $ sudo ./server
     ```
     You should see:
+   
     ![Alt Text](serverstart.png)
-2. **Start the Client**  
+3. **Start the Client**  
     In another terminal, run: 
     ```bash
     $ sudo ./client
     ```
     You should see:
     <!-- Replace with actual screenshot -->
-3. **Check Server Terminal**  
+4. **Check Server Terminal**  
     You should see new responses from the client:
     <!-- Replace with actual screenshot -->
 ---
